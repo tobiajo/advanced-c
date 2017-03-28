@@ -14,13 +14,13 @@ double measure(void_noargs func) {
 void fragment_a() {
 	int X[N][N];
 	for (int j = 0; j < N; j++)
-		for (int i = 0; i < N; i++) X[i][j]= 0;
+		for (int i = 0; i < N; i++) X[i][j] = 1;
 }
 
 void fragment_b() {
 	int X[N][N];
 	for (int i = 0; i < N; i++)
-		for (int j = 0; j < N; j++) X[i][j]= 0;
+		for (int j = 0; j < N; j++) X[i][j] = 1;
 }
 
 int main(int argc, char *argv[]) {
